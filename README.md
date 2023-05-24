@@ -1,8 +1,6 @@
 # TetrisUSFX01
 ## Autores: 
 1. Calderón Flores Enrique Antonio
-2. Rua Echalar Juan Manuel
-         
 ## Laboratorio 9
 
 ### Laboratorio 9:  
