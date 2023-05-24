@@ -3,13 +3,7 @@
 1. Calderón Flores Enrique Antonio
 2. Rua Echalar Juan Manuel
          
-## Laboratorios 6,7,8
+## Laboratorio 9
 
-### Laboratorio 6:  
-Patron Singleton Aplicado a board. Se usa un temporizador (FTimerHandle) para crear un Board cada 5 segundos, pero si ya existe un board en el nivel, no lo crea.
-
-### Laboratorio 7:  
-Patron Builder Aplicado a Pieza (ya no se hace uso de "Piece.h", "Piece.cpp") para crear distintas piezas con distintos bloques. (5 builders concretos, 3 bloques distintos que heredan de ABlock). A bloques se aplica también el patron factory.
-
-### Laboratorio 8:  
-Patron Factory aplicado a escenario.Mediante las teclas "1", "2", "3", podemos seleccionar que escenario cargar. Se creo una interfaz y una factory concreta.
+### Laboratorio 9:  
+Utilizar la clase AdaptadorMovimientoAleatorio_CA que implementa el patrón adapter a la generación de las piezas de Tetris, considerando lo siguiente: Solo se debe aplicar este componente de actor a pieza que tenga dos o un bloque y con un criterio de aleatoriedad que considere aplicar cuando se genere un numero aleatorio entre 0 y 10 y el numero generado sea menor a 3, este efecto deberá durar tan solo 3 segundos o dejar los bloques en una posicion adecuada para su montaje. Los posibles movimientos deberán ser trabajados de acuerdo a su criterio y gusto, simplemente garantizando que estos no perjudiquen el desarrollo del juego.
